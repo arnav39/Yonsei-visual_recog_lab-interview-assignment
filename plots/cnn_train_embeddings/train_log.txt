@@ -1,0 +1,48 @@
+name = embedding_layer.weight, device = mps:0, shape = torch.Size([10000, 100])
+name = conv1d.weight, device = mps:0, shape = torch.Size([100, 100, 3])
+name = conv1d.bias, device = mps:0, shape = torch.Size([100])
+name = fc1.weight, device = mps:0, shape = torch.Size([100, 100])
+name = fc1.bias, device = mps:0, shape = torch.Size([100])
+name = fc2.weight, device = mps:0, shape = torch.Size([2, 100])
+name = fc2.bias, device = mps:0, shape = torch.Size([2])
+-------------- epoch = 0 --------------
+train_loss = 0.7054882794618607, train_acc = 0.4906801007556675, test_loss = 0.7004930377006531, test_acc = 0.5055
+-------------- epoch = 1 --------------
+train_loss = 0.6938263550400734, train_acc = 0.5229219143576826, test_loss = 0.6932654902338982, test_acc = 0.5195
+-------------- epoch = 2 --------------
+train_loss = 0.6852211467921734, train_acc = 0.5556675062972293, test_loss = 0.6894272677600384, test_acc = 0.5305
+-------------- epoch = 3 --------------
+train_loss = 0.6760126762092113, train_acc = 0.5848866498740554, test_loss = 0.6887811943888664, test_acc = 0.5275
+-------------- epoch = 4 --------------
+train_loss = 0.6666624024510384, train_acc = 0.6171284634760705, test_loss = 0.6849428936839104, test_acc = 0.5485
+-------------- epoch = 5 --------------
+train_loss = 0.6580921560525894, train_acc = 0.6443324937027708, test_loss = 0.6826673932373524, test_acc = 0.5615
+-------------- epoch = 6 --------------
+train_loss = 0.6477188095450401, train_acc = 0.6690176322418137, test_loss = 0.680669117718935, test_acc = 0.5705
+-------------- epoch = 7 --------------
+train_loss = 0.6348788402974606, train_acc = 0.6987405541561713, test_loss = 0.6817263178527355, test_acc = 0.569
+-------------- epoch = 8 --------------
+train_loss = 0.6197623163461685, train_acc = 0.7178841309823678, test_loss = 0.6703890115022659, test_acc = 0.5845
+-------------- epoch = 9 --------------
+train_loss = 0.600701779127121, train_acc = 0.7581863979848866, test_loss = 0.6705849841237068, test_acc = 0.5715
+-------------- epoch = 10 --------------
+train_loss = 0.5752114094793797, train_acc = 0.7808564231738035, test_loss = 0.6730531938374043, test_acc = 0.5665
+-------------- epoch = 11 --------------
+train_loss = 0.5481750033795834, train_acc = 0.801007556675063, test_loss = 0.6495983339846134, test_acc = 0.6115
+-------------- epoch = 12 --------------
+train_loss = 0.5160082411020994, train_acc = 0.8312342569269522, test_loss = 0.6417154371738434, test_acc = 0.633
+-------------- epoch = 13 --------------
+train_loss = 0.474014762789011, train_acc = 0.8624685138539043, test_loss = 0.6344495229423046, test_acc = 0.6385
+-------------- epoch = 14 --------------
+train_loss = 0.4362045042216778, train_acc = 0.8680100755667506, test_loss = 0.6426177248358727, test_acc = 0.6215
+-------------- epoch = 15 --------------
+train_loss = 0.39501640759408474, train_acc = 0.892191435768262, test_loss = 0.625295165926218, test_acc = 0.649
+-------------- epoch = 16 --------------
+train_loss = 0.34582413360476494, train_acc = 0.924433249370277, test_loss = 0.62351069226861, test_acc = 0.658
+-------------- epoch = 17 --------------
+train_loss = 0.30032540671527386, train_acc = 0.9380352644836272, test_loss = 0.6372386068105698, test_acc = 0.6495
+-------------- epoch = 18 --------------
+train_loss = 0.2610425753518939, train_acc = 0.9576826196473551, test_loss = 0.6308542564511299, test_acc = 0.665
+-------------- epoch = 19 --------------
+train_loss = 0.2199831074103713, train_acc = 0.9753148614609571, test_loss = 0.6327493637800217, test_acc = 0.67
+Training time: 6.80 seconds

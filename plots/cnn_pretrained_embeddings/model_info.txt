@@ -1,0 +1,15 @@
+--------------- Information about the cnn pretrained embeddings model ----------------
+
+batch_size = 64
+
+learning_rate = 0.001
+momentum = 0.9
+
+model = CNN(use_pretrained_embeddings = True,
+            embedding_dim=100,
+            n_filters=100,
+            n_classes=2,
+            filter_size=3,
+            output_dim=100)
+
+num_epochs = 70

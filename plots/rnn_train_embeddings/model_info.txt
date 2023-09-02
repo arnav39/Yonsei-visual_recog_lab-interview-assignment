@@ -1,0 +1,17 @@
+--------------- Information about the rnn train embeddings model ----------------
+
+batch_size = 256
+
+learning_rate = 0.01
+clip = 5
+
+model = RNN(use_pretrained_embeddings=False,
+        no_layers=1,
+        vocab_size=10000,
+        hidden_dim=200,
+        embedding_dim=100,
+        output_dim=50,
+        n_classes=2,
+        drop_prob=0)
+
+num_epochs = 10

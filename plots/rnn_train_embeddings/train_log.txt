@@ -1,0 +1,30 @@
+name = embedding.weight, device = mps:0, shape = torch.Size([10000, 100])
+name = lstm.weight_ih_l0, device = mps:0, shape = torch.Size([800, 100])
+name = lstm.weight_hh_l0, device = mps:0, shape = torch.Size([800, 200])
+name = lstm.bias_ih_l0, device = mps:0, shape = torch.Size([800])
+name = lstm.bias_hh_l0, device = mps:0, shape = torch.Size([800])
+name = fc1.weight, device = mps:0, shape = torch.Size([50, 200])
+name = fc1.bias, device = mps:0, shape = torch.Size([50])
+name = fc2.weight, device = mps:0, shape = torch.Size([2, 50])
+name = fc2.bias, device = mps:0, shape = torch.Size([2])
+-------------- epoch = 0 --------------
+train_loss = 0.749186210334301, train_acc = 0.5052896725440806, test_loss = 0.6930192708969116, test_acc = 0.4985
+-------------- epoch = 1 --------------
+train_loss = 0.6930071264505386, train_acc = 0.4987405541561713, test_loss = 0.6928176879882812, test_acc = 0.49
+-------------- epoch = 2 --------------
+train_loss = 0.6917250901460648, train_acc = 0.5073047858942066, test_loss = 0.6932661607861519, test_acc = 0.5005
+-------------- epoch = 3 --------------
+train_loss = 0.6905767694115639, train_acc = 0.5133501259445844, test_loss = 0.6925563886761665, test_acc = 0.504
+-------------- epoch = 4 --------------
+train_loss = 0.6731579452753067, train_acc = 0.6871536523929471, test_loss = 0.682711660861969, test_acc = 0.575
+-------------- epoch = 5 --------------
+train_loss = 0.5942625030875206, train_acc = 0.8050377833753148, test_loss = 0.6792804524302483, test_acc = 0.591
+-------------- epoch = 6 --------------
+train_loss = 0.40703627094626427, train_acc = 0.8816120906801007, test_loss = 0.8278320506215096, test_acc = 0.599
+-------------- epoch = 7 --------------
+train_loss = 0.24668447114527225, train_acc = 0.9143576826196473, test_loss = 1.1058754622936249, test_acc = 0.606
+-------------- epoch = 8 --------------
+train_loss = 0.15031998045742512, train_acc = 0.9571788413098237, test_loss = 1.1628554910421371, test_acc = 0.6105
+-------------- epoch = 9 --------------
+train_loss = 0.08582603326067328, train_acc = 0.9722921914357683, test_loss = 1.253176137804985, test_acc = 0.619
+Training time: 13.31 seconds
